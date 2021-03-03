@@ -28,7 +28,7 @@ Categories=emulators;
 
 Test and verify that your name.opk works if possible.
 
-### Note
+### Notes
 - Sources can be either specific file, a directory, or a compbination of both. \
 - If there are any special libs required for your OPK, include them in the OPK.  Possibly provide a .sh file that will point to those special libs to be loaded during execution. \
 Example: LD_LIBRARY_PATH. ./execuable
