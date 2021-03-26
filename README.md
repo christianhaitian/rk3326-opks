@@ -24,11 +24,11 @@ StartupNotify=true \
 Icon=ppsspp \
 Categories=emulators;
 
-2. mksquashfs default.rk.3326.desktop source2 source3 .... name.opk -all-root -noappend -no-exports
+2. mksquashfs default.rk3326.desktop source2 source3 .... name.opk -all-root -noappend -no-exports
 
 Test and verify that your name.opk works if possible.
 
 ### Notes
-- Sources can be either specific file, a directory, or a compbination of both. \
+- Sources can be either specific file, a directory, or a compbination of both.
 - If there are any special libs required for your OPK, include them in the OPK.  Possibly provide a .sh file that will point to those special libs to be loaded during execution. \
 Example: LD_LIBRARY_PATH. ./execuable
